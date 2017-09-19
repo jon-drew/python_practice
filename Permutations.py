@@ -17,9 +17,8 @@ def is_list_permutation(L1, L2):
     '''
     L1 and L2: lists containing integers and strings
     Returns False if L1 and L2 are not permutations of each other. 
-            If they are permutations of each other, returns a 
-            tuple of 3 items in this order: 
-            the element occurring most, how many times it occurs, and its type
+    If they are permutations of each other, returns a tuple of 3 items in this order: 
+    the element occurring most, how many times it occurs, and its type
     '''
     if most_common_element(permutation_flag(L1, L2)) == (0, 0, 0):
         return (None, None, None)
